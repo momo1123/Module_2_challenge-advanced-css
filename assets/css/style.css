@@ -1,0 +1,78 @@
+* {
+    background-color: black;
+    color: #ffffff;
+}
+
+.header {
+    padding: 20px;
+    font-style: italic;
+    display: block;
+    background-color: darkkhaki;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding: 5px;
+    background-color: darkkhaki;
+    text-decoration: none;
+}
+/* the .seo is used for google search or search engines. It's important in a production environment*/
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 10px;
+    font-size: 20px;
+    float: right;
+    display: inline-block;
+    background-color: darkkhaki;
+}
+
+.header nav ul {
+    list-style-type: none;
+    background-color: darkkhaki;
+}
+
+/* This is the same concept as above ^ (Follows heiarchy) */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    background-color: darkkhaki;
+    text-underline-position: under;
+}
+
+/* This sets all the p elements font size to 16px */
+p {
+    font-size: 16px;
+}
+
+.cool_background {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/background_image.jpg);
+
+}
+
+.cool_background img {
+    width: 100%;
+    height: 200px;
+
+}
+
+/* .cool_background img {
+    size: 50px;
+    height: 50px;
+}
+
+.cool_background background_image {
+    background-image: url(../images/background_image.jpg)
+} */
